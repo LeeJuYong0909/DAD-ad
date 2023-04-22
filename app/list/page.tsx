@@ -7,7 +7,7 @@ function List() {
             상품.map((item, key)=>{
                 return(
                     <>
-                    <div className="food" key={key}>
+                    <div className="food1" key={key}>
                         <img src="/food0.png"/>
                         <h4>{item} 40000원</h4>
                     </div>
